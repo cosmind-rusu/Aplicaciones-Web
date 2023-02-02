@@ -1,0 +1,27 @@
+nav {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Color de cuando pasa por encima el raton */
+li a:hover {
+  background-color: #696968;
+}

@@ -1,0 +1,140 @@
+/* CLASES GLOBALES */
+body {
+    background-color: #d8d8d8;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #728ff6;
+    background: linear-gradient(90deg, #728ff6 16%, #ffc370 50%, #b259ed 87%);
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #728ff6;
+    background: linear-gradient(90deg, #728ff6 16%, #ffc370 50%, #b259ed 87%);
+}
+
+p {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CLASES PRIVADAS */
+.navegacion {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inicioImg {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px; 
+}
+
+.quienesImg {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px; 
+}
+.imgServicios{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px; 
+}
+
+.txt{
+    display: flex;
+}
+
+/* .servicios{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+} */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 2 / 2 / 5 / 5; }
+    .div2 { grid-area: 2 / 3 / 5 / 4; }
+    .div3 { grid-area: 2 / 2 / 5 / 3; }
+    .div4 { grid-area: 2 / 4 / 5 / 5; }
+
+
+/* ESTILO DE LOS BOTONES */
+button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border: 3px solid transparent;
+    background-color: #644ded14;
+    border-radius: 1.25em;
+    transition: all 0.2s linear;
+}
+   
+    button:hover {
+    box-shadow: 3.4px 2.5px 4.9px #00000006,
+     8.6px 6.3px 12.4px #00000009,
+     17.5px 12.8px 25.3px #0000000b,
+     36.1px 26.3px 52.2px #0000000e,
+     99px 72px 143px #00000014;
+}
+   
+   .tooltip {
+    position: relative;
+    display: flex;
+}
+   
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 4em;
+    background-color: #b259ed;
+    color: #ffc370;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 110%;
+}
+   
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #b259ed transparent transparent;
+}
+   
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

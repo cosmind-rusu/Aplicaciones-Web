@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejemplo 20: Arrays</title>
+</head>
+<body>
+<script>
+	//DECLARAR
+	var edades=new Array(5);//índices=posiciones de 0 a 4
+	//¡OJO! habrá que darle valores antes de usarlos
+
+	//otra forma
+	var edades2=new Array(5,22,4,9,8);
+	//otra forma
+	var edades3=[5,22,4,9,8];
+
+	//USAR VALORES
+	edades[2]=55; //dar valor a la "cajita" de la posición 2 (la tercera)
+	document.write("En la primera posición está: "+ edades2[0]+"<br>");
+	// edades3[3] lo que queramos
+
+	//mostrar todos los valores de un array
+	var i;//índice del array
+	for(i=0;i<5;i++){ //hay 5 elementos, índice de 0 a 4
+		document.write(edades[i]+" ");
+	}
+	document.write("<br>");
+	//mostrar el edades2
+	for(i=0;i<5;i++){
+		document.write(edades2[i]+" ");
+	}
+	//mostrar edades3
+
+</script>
+</body>
+</html>	

@@ -1,0 +1,8 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td, tr, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+}

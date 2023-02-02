@@ -1,0 +1,10 @@
+let x = "Hola";
+alert(3);
+alert(3.1);
+alert("Hola mundo otra vez");
+alert('Hola mundo otra vez');
+alert(true);
+alert(null);
+alert(undefined);
+alert(document);
+alert(x);

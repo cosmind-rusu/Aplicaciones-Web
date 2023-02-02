@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>ejemplo 11</title>
+</head>
+<body>
+	<!-- PARA QUE FUNCIONE TODO Y LAS QUERY LLEGUEN TIENES QUE PONER AL INPUT QUE CONECTE CON UN FOR -->
+	<div id="formulario">
+
+		<form action="procesar.html" method="get" enctype="multipart/form-data">
+			<h3>Formulario</h3>
+	
+		<fieldset>
+			<!-- INPUT PARA DATOS COMO CONTRASEÑA O TEXTOS -->
+			<label for="name">Usuario<input type="text" placeholder="Escribe algo" id="name" name="name" for="nombre_usuario"></label>
+			<label for="name">Contraseña<input type="password" placeholder="Escribe algo" id="contraseña" name="contraseña" for="contraseña_user"></label>
+		</fieldset>
+			<!-- INPUT PARA LOS CHECKBOX -->
+			<br>
+			<strong>Gustos</strong>
+			<br>
+		<fieldset>
+			<label for="Libros"><input type="checkbox" name="Libros" id="">Libros</label>
+			<label for="Series"><input type="checkbox" name="Series" id="">Series</label>
+			<label for="Pelis"><input type="checkbox" name="Pelis" id="">Pelis</label>
+		</fieldset>
+			<!-- ########################### PARA QUE FUNCIONE UN RADIO BUTTON TIENE QUE TENER TODOS UN MISMO NOMBRE O NAME ##################### -->
+			<br>
+			<strong>Politica</strong>
+			<br>
+		<fieldset>
+			<label for="politica"><input type="radio" name="policata" id="Si" value="si">Si</label>
+			<label for="politica"><input type="radio" name="policata" id="No" value="no">No</label>
+			<!-- ########################### PARA QUE FUNCIONE UN RADIO BUTTON TIENE QUE TENER TODOS UN MISMO NOMBRE O NAME ##################### -->
+		</fieldset>
+
+			<br>
+			<strong>Provincia</strong>
+			<br>
+			
+			<!-- SIRVE PARA PODER HACER UN DESPLEGABLE DEBERIAS DE PONER UN VALUE -->
+		<fieldset>
+			<label for="provincia">
+			<select name="provincia" id="provincia">
+				<option value="Zaragoza">Zaragoza</option>
+				<option value="Huesca">Huesca</option>
+				<option value="Teruel">Teruel</option>
+			</select>
+			</label>
+		</fieldset>
+			<br>
+			<br>
+
+			<p>Formato de imagen: <input type="text" name="formatoimagen" list="listaformatosimagen"></p> 
+				<datalist id="listaformatosimagen"> 
+				<option>PNG</option> 
+				<option>JPEG</option> 
+				<option>GIF</option> 
+				<option>TGA</option> 
+				</datalist>
+
+			<!-- INPUT PARA TEXTO -->
+			<textarea name="texto" id="texto" cols="30" rows="10" placeholder="Escribe tus comentarios"></textarea>
+	
+			<!-- INPUT PARA ARCHIVOS -->
+			<label for="archivos"><input type="file" name="archivos" id="archivos"></label>
+	
+			<!-- INPUT PARA RESETEAR EL FORMULARIO -->
+			<label for="resetear"><input type="reset" name="resetear" id="resetear"></label>
+			
+			<!-- INPUT PARA ENVIAR -->
+			<input type="submit" value="Enviar">
+
+			<!-- LA ETIQUETA FIELDSET SIRVE PARA PODER PODER DECORAR UN POCO EL FORMULARIO -->
+
+			<!-- <fieldset></fieldset> -->
+
+		</form>
+	</div>
+	
+</body>
+</html>

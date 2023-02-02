@@ -1,0 +1,59 @@
+/* CLASES FIJAS */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+th{
+    text-align: center;   
+}
+
+
+td{
+    border: 1px solid;
+    text-align: center;   
+}
+
+
+/* CLASES VARIABLES */
+
+.tabla{
+    display: flex;
+    justify-content: center;
+}
+
+.AW{
+    background-color: #62e1f1;
+}
+
+.SOR{
+    background-color: #eb4f4fd5;
+}
+
+.SI{
+    background-color: #4feb5cd5;
+}
+
+.EIE{
+    background-color: #864febd5;
+}
+
+.LEP{
+    background-color: #3a89fff5;
+}
+
+.SR{
+    background-color: #267c2df5;
+}
+
+.recreo{
+    background-color: #d8e4e6d2;
+}
+
+.dia{
+    background-color: #f1cb62;
+    border: 1px solid;
+}

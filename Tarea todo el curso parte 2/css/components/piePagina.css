@@ -1,0 +1,63 @@
+/* ESTA CLASE SE ENCARGA DE AJUSTAR EL TAMAÑO DEL FOOTER */
+.piePagina{
+    width: 100%;
+    height: 81px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+}
+/* ESTA CLASE SE ENCARGA DE AJUSTAR EL TAMAÑO DEL FOOTER */
+
+.social_links
+{   
+    bottom: 0;
+    padding: 1rem;
+    background: #333;
+    border-radius: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social_links .combo
+{
+    transform: scale(0.9);
+    transition: 0.4s ease-in;
+    margin: 0 0.5rem;
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+}
+.combo .circle
+{
+    color: #f9f9f9;
+    transition: 0.4s ease-in;
+    font-size: 3em;
+}
+.combo .icon
+{
+    color: #444343;
+    font-size: 2rem;
+    transform: translateY(1px);
+    transition: 0.2s ease-in;
+}
+.combo:hover
+{
+    transform: scale(1.1);
+}
+.combo:hover , .combo:hover .icon
+{
+    color:white;
+}
+.ig:hover , .ig:hover .circle
+{
+    color:#E21B6A;
+}
+.fb:hover , .fb:hover .circle
+{
+    color:#1DA1F2;
+}
+.gh:hover , .gh:hover .circle{
+    color: #440187;
+}

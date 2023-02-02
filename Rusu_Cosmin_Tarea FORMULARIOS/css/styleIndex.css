@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background: #8ae0d2;
+}
+
+h2{
+  color: #c300ff;
+}
+
+.container {
+  width: 100%;
+
+}
+
+

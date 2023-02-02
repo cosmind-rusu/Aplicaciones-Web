@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejemplo 22: problemas a la entrada de datos</title>
+</head>
+<body>
+<h1>Problemas con la entrada de datos</h1>
+<h2>Con números</h2>
+<p>Todo lo que entramos es una cadena. Convertir a número</p>
+<p>Sumar dos números</p>
+<script>
+	var a=prompt("Número");//es una cadena
+	//a=a*1;//truco, multiplicar por 1
+	a=parseInt(a);//convertir y a número y guardar en la misma variable
+	var b=prompt("Otro número");
+	b=parseInt(b);//también parseFloat si tiene decimales
+	var suma=a+b;
+	alert(suma);
+</script>
+
+<h2>Leer una cadena entera pero trabajarla caracter a carater</h2>
+<script>
+	var frase=prompt("Dame una frase");
+	document.write("Tu frase tiene " + frase.length +
+			" letras. La primera es " + frase.charAt(0))
+	document.write("<br>");
+	for(i=0;i<frase.length;i++){
+		document.write(frase.charAt(i)+"--");
+
+	}
+</script>
+</body>
+</html>	

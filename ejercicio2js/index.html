@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercico 2 de javascript: arrays</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+<h1>Arrays</h1>
+<ul>
+	<li>
+Crear un array con los nombres de los
+meses del año</li>
+<li>Crear un script que usando ese array
+solicite un número para el mes (de 1 a
+12) y muestre el nombre del mes con
+letra</li>
+</ul>
+<blockquote>
+	<p><strong>Nota</strong></p><p>usar el array anterior</p>
+</blockquote>
+
+<script>
+	//los meses del año
+	var meses=["enero","febrero","marzo",
+				"abril","mayo","junio",
+				"julio","agosto","septiembre",
+				"octubre","noviembre","diciembre"];
+
+	//¿lo he hecho bien?->DEBUG
+	var i;
+	for(i=0;i<meses.length;i++){
+		document.write(meses[i]+" ");
+	}
+	var solicitud;
+	solicitud=prompt("Dime un número de 1 a 12");
+	//¡¡Comprobar la entrada!!
+	//cancelar
+	if(solicitud==null){
+		alert("Introduce número y pulsa aceptar");
+	}else if(solicitud==""){
+		//aceptar sin número
+		alert("Introduce número");
+	}else if(solicitud<1 || solicitud>12){
+		//ese número no esté entre 1 y 12
+		alert("El número debe estar entre 1 y 12");
+	}else{
+		//el resto del código
+		var i=solicitud-1; //quiero el índice anterior
+		document.write(meses[i]);
+		//igual vale
+		document.write(meses[solicitud-1]);
+	}
+	
+</script>
+</body>
+</html>	

@@ -1,0 +1,24 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    background-color: bisque;
+    text-align: center;
+
+}
+
+table{
+    border: 2px solid #cf3e3e;
+    border-style: dotted;
+}
+
+td{
+    border: 1px solid;
+}
+
+
+
+.tablas{
+    display: flex;
+    justify-content: center;
+
+}

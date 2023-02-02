@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejemplo 11: Formularios</title>
+</head>
+<body>
+	<h1>Parámetros de la Query String</h1>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const entries = urlParams.entries();
+        for (const [key, value] of entries) {
+        document.write(`${key}:  ${value}<br>`);
+        }
+    </script>
+</body>
+</html>

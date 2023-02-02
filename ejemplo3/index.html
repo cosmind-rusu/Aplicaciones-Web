@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel=StyleSheet href="/css/main.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/344/lock--v2.png">
+    <title>Ejemplo3</title>
+</head>
+<body>
+    <h1>EJEMPLO 03: </h1>
+    <h2>RUTA DE IMAGENES</h2>
+    <!-- ruta relativa -->
+    <img src="images/logo.jpg">
+    <!-- Hace exactamente lo mismo -->
+    <img src="./images/logo.jpg">
+    <!-- Funciona de manera diferente en servidores web, en local no funciona -->
+    <img src="/images/logo.jpg">
+
+    <h2>ENLACES</h2>
+    <a href="https://www.Google.es/">Vamos a Google</a>
+    <a href="https://upload.wikimedia.org/wikipedia/commons/e/eb/Hola_mundo.bash.zenity.png">Imagen 1</a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Hola_mundo.bash.zenity.png">
+    <a href="contacto.html"> 
+        <button>CONTACTO</button>
+    </a>
+    <a href="admin/indexadmin.html">
+        <button>ADMIN</button>
+    </a>
+    <address>cdaniel21@iesrioarba.es</address>
+    <a href="#txt" id="vuelve">Enlace al texto de mas abajo</a>
+    <p style="text-align: center;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra, elit sed tempus iaculis, eros tortor fringilla sapien, eu dictum ante risus at urna.
+        Suspendisse suscipit posuere elit, ac cursus nulla sagittis bibendum. Suspendisse convallis ut magna in blandit. Suspendisse nec neque vehicula, posuere dolor vitae,
+        elementum sapien. Nulla id est a magna tempus rhoncus. Suspendisse facilisis sem vitae dapibus vestibulum. Mauris commodo odio in orci venenatis ultricies.
+        Quisque ac odio quis mauris convallis finibus sit amet sed lectus. Donec vel congue dui, ut lacinia nulla. Nullam accumsan dolor non tellus tempus posuere. 
+        Curabitur nisi dui, ornare sit amet ipsum sed, dapibus eleifend leo. Curabitur accumsan consectetur augue, ut imperdiet sem ullamcorper a. Nunc vel convallis nisi. 
+        Nullam ex sapien, accumsan vitae semper in, ullamcorper quis purus. Etiam pharetra maximus magna, sit amet iaculis ante interdum sit amet. Phasellus efficitur nec 
+        mi eget laoreet. In sed orci vitae ligula blandit pulvinar. Donec semper, lorem eu venenatis mollis, erat erat interdum orci, non posuere nibh massa non urna. In 
+        sed magna tristique, dignissim diam eu, rhoncus tellus. Proin malesuada nisl nec lectus rhoncus molestie. Curabitur libero diam, convallis et convallis quis, tincidunt
+        sed orci. Nulla molestie metus ac cursus imperdiet. Nunc aliquet ipsum vitae vehicula mollis. Morbi pharetra arcu urna, eget facilisis metus porta at. Integer non 
+        egestas nulla. Etiam interdum purus vel risus condimentum luctus. Vivamus eu diam quam. Maecenas at pharetra magna. Proin quis leo justo.
+    </p>
+    <!-- hr sirve para poder poner lineas -->
+    <hr style="width: 50%; ">
+    <!-- el pre sirve para poder poner texto mono espaciado -->
+    <pre>
+        const express = require('express');
+        const bodyParser = require('body-parser');
+        const http = require('http');
+        const path = require('path');
+        const fs = require('fs');
+        
+        const app = express();
+    </pre>
+
+    <hr>
+
+    <p>
+        
+        <b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </b> Suspendisse pharetra, elit sed tempus iaculis, eros tortor fringilla sapien, eu dictum ante risus at urna.
+        Suspendisse suscipit posuere elit, ac cursus nulla sagittis bibendum. Suspendisse convallis ut magna in blandit. Suspendisse nec neque vehicula, posuere dolor vitae,
+        elementum sapien. Nulla id est a magna tempus rhoncus. Suspendisse facilisis sem vitae dapibus vestibulum. Mauris commodo odio in orci venenatis ultricies.
+        Quisque ac odio quis mauris convallis finibus sit amet sed lectus. Donec vel congue dui, ut lacinia nulla. Nullam accumsan dolor non tellus tempus posuere. 
+        <i> Curabitur </i> nisi dui, ornare sit amet ipsum sed, dapibus eleifend leo. Curabitur accumsan consectetur augue, ut imperdiet sem ullamcorper a. Nunc vel convallis nisi. 
+        Nullam ex sapien, accumsan vitae semper in, ullamcorper quis purus. Etiam pharetra maximus magna, sit amet iaculis ante interdum sit amet. Phasellus efficitur nec 
+        mi eget laoreet. In sed orci vitae ligula blandit pulvinar. Donec semper, lorem eu venenatis mollis, erat erat interdum orci, non posuere nibh massa non urna. In 
+        sed magna tristique, dignissim diam eu, rhoncus tellus. Proin malesuada nisl nec lectus rhoncus molestie. Curabitur libero diam, convallis et convallis quis, tincidunt
+        sed orci. Nulla molestie metus ac cursus imperdiet. Nunc aliquet ipsum vitae vehicula mollis. Morbi pharetra arcu urna, eget facilisis metus porta at. Integer non 
+        egestas nulla. Etiam interdum purus vel risus condimentum luctus. Vivamus eu diam quam. Maecenas at pharetra magna. Proin quis leo justo.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra, elit sed tempus iaculis, eros tortor fringilla sapien, eu dictum ante risus at urna.
+        Suspendisse suscipit posuere elit, ac cursus nulla sagittis bibendum. Suspendisse convallis ut magna in blandit. Suspendisse nec neque vehicula, posuere dolor vitae,
+        elementum sapien. Nulla id est a magna tempus rhoncus. Suspendisse facilisis sem vitae dapibus vestibulum. Mauris commodo odio in orci venenatis ultricies.
+        Quisque ac odio quis mauris convallis finibus sit amet sed lectus. Donec vel congue dui, ut lacinia nulla. Nullam accumsan dolor non tellus tempus posuere. 
+        Curabitur nisi dui, ornare sit amet ipsum sed, dapibus eleifend leo. Curabitur accumsan consectetur augue, ut imperdiet sem ullamcorper a. Nunc vel convallis nisi. 
+        Nullam ex sapien, accumsan vitae semper in, ullamcorper quis purus. Etiam pharetra maximus magna, sit amet iaculis ante interdum sit amet. Phasellus efficitur nec 
+        mi eget laoreet. In sed orci vitae ligula blandit pulvinar. Donec semper, lorem eu venenatis mollis, erat erat interdum orci, non posuere nibh massa non urna. In 
+        sed magna tristique, dignissim diam eu, rhoncus tellus. Proin malesuada nisl nec lectus rhoncus molestie. Curabitur libero diam, convallis et convallis quis, tincidunt
+        sed orci. Nulla molestie metus ac cursus imperdiet. Nunc aliquet ipsum vitae vehicula mollis. Morbi pharetra arcu urna, eget facilisis metus porta at. Integer non 
+        egestas nulla. Etiam interdum purus vel risus condimentum luctus. Vivamus eu diam quam. Maecenas at pharetra magna. Proin quis leo justo.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra, elit sed tempus iaculis, eros tortor fringilla sapien, eu dictum ante risus at urna.
+        Suspendisse suscipit posuere elit, ac cursus nulla sagittis bibendum. Suspendisse convallis ut magna in blandit. Suspendisse nec neque vehicula, posuere dolor vitae,
+        elementum sapien. Nulla id est a magna tempus rhoncus. Suspendisse facilisis sem vitae dapibus vestibulum. Mauris commodo odio in orci venenatis ultricies.
+        Quisque ac odio quis mauris convallis finibus sit amet sed lectus. Donec vel congue dui, ut lacinia nulla. Nullam accumsan dolor non tellus tempus posuere. 
+        Curabitur nisi dui, ornare sit amet ipsum sed, dapibus eleifend leo. Curabitur accumsan consectetur augue, ut imperdiet sem ullamcorper a. Nunc vel convallis nisi. 
+        Nullam ex sapien, accumsan vitae semper in, ullamcorper quis purus. Etiam pharetra maximus magna, sit amet iaculis ante interdum sit amet. Phasellus efficitur nec 
+        mi eget laoreet. In sed orci vitae ligula blandit pulvinar. Donec semper, lorem eu venenatis mollis, erat erat interdum orci, non posuere nibh massa non urna. In 
+        sed magna tristique, dignissim diam eu, rhoncus tellus. Proin malesuada nisl nec lectus rhoncus molestie. Curabitur libero diam, convallis et convallis quis, tincidunt
+        sed orci. Nulla molestie metus ac cursus imperdiet. Nunc aliquet ipsum vitae vehicula mollis. Morbi pharetra arcu urna, eget facilisis metus porta at. Integer non 
+        egestas nulla. Etiam interdum purus vel risus condimentum luctus. Vivamus eu diam quam. Maecenas at pharetra magna. Proin quis leo justo.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra, elit sed tempus iaculis, eros tortor fringilla sapien, eu dictum ante risus at urna.
+        Suspendisse suscipit posuere elit, ac cursus nulla sagittis bibendum. Suspendisse convallis ut magna in blandit. Suspendisse nec neque vehicula, posuere dolor vitae,
+        elementum sapien. Nulla id est a magna tempus rhoncus. Suspendisse facilisis sem vitae dapibus vestibulum. Mauris commodo odio in orci venenatis ultricies.
+        Quisque ac odio quis mauris convallis finibus sit amet sed lectus. Donec vel congue dui, ut lacinia nulla. Nullam accumsan dolor non tellus tempus posuere. 
+        Curabitur nisi dui, ornare sit amet ipsum sed, dapibus eleifend leo. Curabitur accumsan consectetur augue, ut imperdiet sem ullamcorper a. Nunc vel convallis nisi. 
+        Nullam ex sapien, accumsan vitae semper in, ullamcorper quis purus. Etiam pharetra maximus magna, sit amet iaculis ante interdum sit amet. Phasellus efficitur nec 
+        mi eget laoreet. In sed orci vitae ligula blandit pulvinar. Donec semper, lorem eu venenatis mollis, erat erat interdum orci, non posuere nibh massa non urna. In 
+        sed magna tristique, dignissim diam eu, rhoncus tellus. Proin malesuada nisl nec lectus rhoncus molestie. Curabitur libero diam, convallis et convallis quis, tincidunt
+        sed orci. Nulla molestie metus ac cursus imperdiet. Nunc aliquet ipsum vitae vehicula mollis. Morbi pharetra arcu urna, eget facilisis metus porta at. Integer non 
+        egestas nulla. Etiam interdum purus vel risus condimentum luctus. Vivamus eu diam quam. Maecenas at pharetra magna. Proin quis leo justo.
+    </p>
+    <img src="/images/logo.jpg">
+    
+
+    <a href="#vuelve" id="txt">VUELVE ARRIBA, RECUERDA QUE ESTO TMB LO PUEDES PONER EN LOS TEXTOS</a>
+</body>
+</html>

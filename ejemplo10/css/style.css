@@ -1,0 +1,16 @@
+.div1 {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+}
+
+.div2 {
+    padding: 10px;
+    border: 8px solid red;
+}
+
+.div3 {
+    clear: left;
+    padding: 10px;
+    border: 5px solid #2152ad;
+}

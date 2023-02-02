@@ -1,0 +1,38 @@
+/* CLASES FIJAS */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+
+th{
+    border: 1px solid;
+    text-align: center;
+    color:#000000
+}
+
+td{
+    border: 1px solid;
+    text-align: center;
+    color:#000000
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+/* CLASES VARIABLES */
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
